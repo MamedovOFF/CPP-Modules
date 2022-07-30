@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/spurple/CPP01/ex01'
+c++ -std=c++98 -Wall -Wextra -Werror -c Zombie.cpp -o Zombie.o
+c++ -std=c++98 -Wall -Wextra -Werror -c main.cpp -o main.o
+c++ -std=c++98 -Wall -Wextra -Werror -c zombieHorde.cpp -o zombieHorde.o
+c++ -std=c++98 -Wall -Wextra -Werror Zombie.o main.o zombieHorde.o -o Zombie 
+make: Leaving directory `/Users/spurple/CPP01/ex01'
+ 
