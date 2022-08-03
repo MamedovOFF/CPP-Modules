@@ -16,15 +16,6 @@ Animal::Animal( const Animal & ref_Point): type(ref_Point.type) {
 	std::cout << "Animal Constructor copied called: " << this->type << std::endl;
 }
 
-Animal& Animal::operator = ( const Animal & ref_Point) {
-	if (this == &ref_Point) {
-		return *this;
-	}
-	this->type = ref_Point.type;
-	std::cout << "Animal Constructor overload called: " << this->type << std::endl;
-	return *this;
-};
-
 std::string Animal::getType() const {
 	return this->type;
 }
