@@ -4,7 +4,6 @@ int main( void ) {
 
     ScavTrap Frodo("Frodo");
     ScavTrap Saruman("Saruman");
-
 	Frodo.attack("Saruman");
     Saruman.attack("Frodo");
     Frodo.takeDamage(11);
