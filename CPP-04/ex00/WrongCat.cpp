@@ -8,7 +8,7 @@ WrongCat::~WrongCat() {
 	std::cout << "WrongCat Destructor called" << std::endl;
 }
 
-WrongCat::WrongCat( const WrongCat & ref_Point) {
+WrongCat::WrongCat( const WrongCat & ref_Point): WrongAnimal(ref_Point.type) {
 	*this = ref_Point;
 	std::cout << "WrongCat Constructor copied called: " << this->getType() << std::endl;
 }

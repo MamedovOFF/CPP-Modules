@@ -8,7 +8,7 @@ Dog::~Dog() {
 	std::cout << "Dog Destructor called" << std::endl;
 }
 
-Dog::Dog( const Dog & ref_Point) {
+Dog::Dog( const Dog & ref_Point): Animal(ref_Point.type) {
 	*this = ref_Point;
 	std::cout << "Dog Constructor copied called: " << this->getType() << std::endl;
 }

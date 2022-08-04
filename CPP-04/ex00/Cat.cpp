@@ -7,7 +7,7 @@ Cat::~Cat() {
 	std::cout << "Cat Destructor called" << std::endl;
 }
 
-Cat::Cat( const Cat & ref_Point) {
+Cat::Cat( const Cat & ref_Point): Animal(ref_Point.type) {
 	*this = ref_Point;
 	std::cout << "Cat Constructor copied called: " << this->getType() << std::endl;
 }
