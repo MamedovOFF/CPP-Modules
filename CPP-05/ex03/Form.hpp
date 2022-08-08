@@ -44,7 +44,7 @@ public:
 			const char * what () const throw();
 	};
 
-	~Form();
+	virtual ~Form();
 };
 
 std::ostream & operator << ( std::ostream& , const Form &);

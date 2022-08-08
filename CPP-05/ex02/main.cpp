@@ -1,28 +1,42 @@
 #include "Bureaucrat.hpp"
 #include "Form.hpp"
+#include "ShrubberyCreationForm.hpp"
+#include "RobotomyRequestForm.hpp"
+#include "PresidentialPardonForm.hpp"
 
 int main () {
     {
-        Form form("first", 100, 50);
-        Bureaucrat bureaucrat("Bob", 101);
+        ShrubberyCreationForm  form1("first");
+        Bureaucrat bureaucrat("Bob", 150);
 
-        bureaucrat.signForm(form);
+        bureaucrat.signForm(form1);
         bureaucrat.incrementGrade();
-        bureaucrat.signForm(form);
-        std::cout << form ;
-    }
- 
-    try {
-        Form form1("second", 151, 50);
-    } catch (Form::GradeTooLowException & e) {
-        std::cout << e.what();
+        bureaucrat.signForm(form1);
+        form1.execute(bureaucrat);
+        std::cout << form1 ;
     }
 
-    try {
-        std::cout << "Try to create form with gradeToSign == " << 0 << std::endl;
-        Form form1("second", 12, 0);
-    } catch (std::exception & e) {
-        std::cout << e.what();
+    {
+        RobotomyRequestForm  form1("first");
+        Bureaucrat bureaucrat("Bob", 30);
+
+        // bureaucrat.signForm(form1);
+        bureaucrat.incrementGrade();
+        // bureaucrat.signForm(form1);
+        form1.execute(bureaucrat);
+        std::cout << form1 ;
     }
+
+        {
+        PresidentialPardonForm  form1("first");
+        Bureaucrat bureaucrat("Bob", 5);
+
+        bureaucrat.signForm(form1);
+        bureaucrat.incrementGrade();
+        bureaucrat.signForm(form1);
+        bureaucrat.executeForm(form1);
+        std::cout << form1 ;
+    }
+
 	return 0;
 }
