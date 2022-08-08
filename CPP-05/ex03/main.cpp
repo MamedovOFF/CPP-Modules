@@ -40,7 +40,7 @@ int main () {
     {
         Intern someRandomIntern;
         Form* rrf;
-        rrf = someRandomIntern.makeForm("robotomy request", "Bender");
+        rrf = someRandomIntern.makeForm("shrubbery creation", "Bender");
         Bureaucrat bureaucrat("Bob", 5);
 
         bureaucrat.signForm(*rrf);

@@ -3,7 +3,7 @@
 int main () {
 	 try {
         std::cout << "Test #1. Try to set too low grade (151)" << std::endl;
-        Bureaucrat bureaucrat("Bob", 151);
+        Bureaucrat bureaucrat("Bob", 40);
         std::cout << "Success" << std::endl;
     } catch (std::exception &e) {
 

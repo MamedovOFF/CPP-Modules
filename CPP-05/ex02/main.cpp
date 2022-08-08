@@ -6,8 +6,8 @@
 
 int main () {
     {
-        ShrubberyCreationForm  form1("first");
-        Bureaucrat bureaucrat("Bob", 150);
+        ShrubberyCreationForm  form1("first_1");
+        Bureaucrat bureaucrat("Bob", 100);
 
         bureaucrat.signForm(form1);
         bureaucrat.incrementGrade();
