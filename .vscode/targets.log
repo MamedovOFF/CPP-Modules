@@ -10,11 +10,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Sun Aug 21 14:41:47 2022
+# Make data base, printed on Sun Aug 21 15:42:44 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -110,7 +109,6 @@ USER = spurple
 # environment
 LESS = -R
 # automatic
- 
 %D = $(patsubst %/,%,$(dir $%))
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
@@ -169,9 +167,9 @@ VSCODE_PID = 63986
 
 # Directories
 
-# . (device 16777230, inode 509456): 12 files, no impossibilities.
+# . (device 16777230, inode 509456): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -243,6 +241,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Sun Aug 21 14:41:47 2022
+# Finished Make data base on Sun Aug 21 15:42:44 2022
 
  

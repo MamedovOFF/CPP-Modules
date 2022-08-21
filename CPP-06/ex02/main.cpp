@@ -42,12 +42,12 @@ void identify(Base& p) {
 	try {
 		B instance;
 		instance = dynamic_cast<B&>(p);
-		std::cout << "&Type A" << std::endl;
+		std::cout << "&Type B" << std::endl;
 	}	catch (const std::exception&) {}
 		try {
 		C instance;
 		instance = dynamic_cast<C&>(p);
-		std::cout << "&Type A" << std::endl;
+		std::cout << "&Type C" << std::endl;
 	}	catch (const std::exception&) {}
 }
 
