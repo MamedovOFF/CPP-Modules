@@ -1,8 +1,8 @@
-NAME	=	Serialization
+NAME	=	base
 
 SRCS	=	main.cpp
 
-HEADER	=
+HEADER	=	Base.hpp A.hpp B.hpp C.hpp
 
 OBJ		=	$(SRCS:.cpp=.o)
 

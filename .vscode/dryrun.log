@@ -1,6 +1,6 @@
 make --dry-run --keep-going --print-directory
-make: Entering directory '/home/mamedov-dev/School_21/CPP-Modules'
-make: Leaving directory '/home/mamedov-dev/School_21/CPP-Modules'
+make: Entering directory `/Users/spurple/Desktop/CPP_MODULE'
+make: Leaving directory `/Users/spurple/Desktop/CPP_MODULE'
  
 make: *** No targets specified and no makefile found.  Stop.
 
