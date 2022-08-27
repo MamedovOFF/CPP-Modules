@@ -2,7 +2,7 @@ NAME	=	templates
 
 SRCS	=	main.cpp 
 
-HEADER	=	whatever.hpp
+HEADER	=	inter.hpp
 
 OBJ		=	$(SRCS:.cpp=.o)
 

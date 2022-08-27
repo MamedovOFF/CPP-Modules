@@ -10,14 +10,14 @@ void swap(T &value_1, T &value_2)
 }
 
 template <typename T>
-T min(T &value_1, T &value_2)
+T min(T value_1, T value_2)
 {
     return value_1 < value_2 ? value_1 : value_2;
 }
 
 template <typename T>
-T max(T &value_1, T &value_2)
+T max(T value_1, T value_2)
 {
     return value_1 > value_2 ? value_1 : value_2;
 }
-#endif
+#endif 
