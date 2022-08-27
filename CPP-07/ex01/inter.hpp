@@ -12,5 +12,4 @@ void inter(T1 *arr, T2 len, T3 f)
 		i++;
 	}	
 }
-
 #endif 
