@@ -27,6 +27,20 @@
 		"string_view": "cpp",
 		"system_error": "cpp",
 		"type_traits": "cpp",
-		"*.tpp": "cpp"
+		"*.tpp": "cpp",
+		"array": "cpp",
+		"deque": "cpp",
+		"set": "cpp",
+		"unordered_map": "cpp",
+		"vector": "cpp",
+		"functional": "cpp",
+		"optional": "cpp",
+		"ranges": "cpp",
+		"tuple": "cpp",
+		"utility": "cpp",
+		"cstring": "cpp",
+		"ctime": "cpp",
+		"iomanip": "cpp",
+		"sstream": "cpp"
 	}
 }
