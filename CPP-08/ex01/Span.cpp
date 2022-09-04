@@ -48,6 +48,15 @@ int Span::longestSpan()
     return max - min;
 }
 
+void Span::fillIterator()
+{
+	srand(time(NULL));
+	for(int i = 0; i < N; i++)
+	{
+		iter.push_back(rand());
+	}
+}
+
 const char * Span::Full::what () const throw () {
 	return "Swap Full\n";
 }

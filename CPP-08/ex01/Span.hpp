@@ -21,6 +21,7 @@ public:
 	void addNumber(int X);
 	int shortestSpan();
 	int longestSpan();
+	void fillIterator();
 
 	class Full : public std::exception { 
 		public:
